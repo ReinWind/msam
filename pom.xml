@@ -4,10 +4,10 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.github.wxiaoqi</groupId>
-    <artifactId>ace-security</artifactId>
+    <groupId>com.github.reinwind</groupId>
+    <artifactId>msam</artifactId>
     <version>2.0-SNAPSHOT</version>
-    <url>https://github.com/wxiaoqi/ace-security</url>
+    <url>https://github.com/ReinWind/msam</url>
     <licenses>
         <license>
             <name>Apache 2</name>
@@ -29,13 +29,13 @@
         <maven.compile.target>1.8</maven.compile.target>
     </properties>
     <modules>
-        <module>ace-center</module>
-        <module>ace-gate</module>
-        <module>ace-common</module>
-        <module>ace-auth</module>
-        <module>ace-sidecar</module>
-        <module>ace-control</module>
-        <module>ace-modules</module>
+        <module>msam-center</module>
+        <module>msam-gate</module>
+        <module>msam-common</module>
+        <module>msam-auth</module>
+        <module>msam-sidecar</module>
+        <module>msam-control</module>
+        <module>msam-modules</module>
     </modules>
     <packaging>pom</packaging>
     <developers>
